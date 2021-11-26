@@ -31,7 +31,7 @@ namespace R03BMI
                 double bmi = w / h / h;
                 int bmi2 = (int)(bmi * 10);
                 double bmi3 = (double)(bmi2 / 10.0);
-                result.Text = "身長" + h + "cm　体重" + w + "kgの人のBMIは" + bmi3 + "です。";
+                result.Text = "身長" + h + "m　体重" + w + "kgの人のBMIは" + bmi3 + "です。";
             }
             catch (FormatException ex)
             {
