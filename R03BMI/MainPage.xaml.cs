@@ -18,11 +18,11 @@ namespace R03BMI
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            //var hit = heighit.Text;
-            //var wit = weighit.Text;
+            var hit = heighit.Text;
+            var wit = weighit.Text;
             try
             {
-                /*double h = double.Parse(hit);
+                double h = double.Parse(hit);
                 if (h >= 100)
                 {
                     h = h / 100;
@@ -38,15 +38,7 @@ namespace R03BMI
                 Console.WriteLine(ex);
                 result.Text = "もう一度入力してください。";
        
-            }*/
-
-        double height = Double.Parse(heighit.Text);
-        double weight = Double.Parse(weighit.Text);
-        double BMI = (height/ (weight * weight));
-        Console.WriteLine(BMI);
-
-
-
+            }
         }
     }
 }
