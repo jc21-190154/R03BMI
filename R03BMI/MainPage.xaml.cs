@@ -36,7 +36,7 @@ namespace R03BMI
             catch (FormatException ex)
             {
                 Console.WriteLine(ex);
-                result.Text = "！！！";
+                result.Text = "もう一度入力してください。";
        
             }
         }
